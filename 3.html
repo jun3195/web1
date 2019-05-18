@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WEB1-Welcome</title>
+	<style>
+		/*
+		block level element
+		*/
+		#grid{
+			border:5px solid pink;
+			display:grid;
+			grid-template-columns: 300px 1fr
+		}
+
+		div{
+			border:5px solid gray;
+			font-size:30px;
+		}
+
+		@media(max-width:800px){
+			div{
+				display:none;
+			}
+		}
+
+		span{
+			border:5px solid red;
+		}
+
+		/*
+		inline element
+		*/
+		a{
+			border:5px red solid;
+			display:block;
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<h1><a href="index.html"title="첫화면일걸?" id="active"><u>내가 만든 홈페이지</u></a></h1>
+
+
+
+	<div id="grid">
+		<div>NAVIGATION</div>
+		<div>ARTICLE</div>
+	</div>
+
+
+
+
+
+	<p>
+		ㅋㅋㅋ<a href="http://naver.com"target="_blank">링크</a>걸어보자
+	</p>
+
+</body>
+
+
+</html>
